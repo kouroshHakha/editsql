@@ -1,3 +1,7 @@
+# Notes from Kourosh
+download the saved model and put it in `logs/logs_sparc_editsql/save_31_sparc_editsql`. You can download it by installing `gdown and doing gdown --id 1MRN3_mklw8biUphFxmD7OXJ57yS-FkJP`
+Then you can start the model by `python interface.py`
+
 # EditSQL for [Spider](https://yale-lily.github.io/spider), [SParC](https://yale-lily.github.io/sparc), [CoSQL](https://yale-lily.github.io/cosql)
 
 This is a pytorch implementation of the CD-Seq2Seq baseline and the EditSQL model in the following papers
