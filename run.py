@@ -18,6 +18,9 @@ from model_util import Metrics, evaluate_utterance_sample, evaluate_interaction_
 
 import torch
 
+from debug import register_pdb_hook
+register_pdb_hook()
+
 np.random.seed(0)
 random.seed(0)
 

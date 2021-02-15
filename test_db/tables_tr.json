@@ -1,0 +1,205 @@
+[
+  {
+    "column_names": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "template type code"
+      ],
+      [
+        0,
+        "template type description"
+      ],
+      [
+        1,
+        "template id"
+      ],
+      [
+        1,
+        "version number"
+      ],
+      [
+        1,
+        "template type code"
+      ],
+      [
+        1,
+        "date effective from"
+      ],
+      [
+        1,
+        "date effective to"
+      ],
+      [
+        1,
+        "template details"
+      ],
+      [
+        2,
+        "document id"
+      ],
+      [
+        2,
+        "template id"
+      ],
+      [
+        2,
+        "document name"
+      ],
+      [
+        2,
+        "document description"
+      ],
+      [
+        2,
+        "other details"
+      ],
+      [
+        3,
+        "paragraph id"
+      ],
+      [
+        3,
+        "document id"
+      ],
+      [
+        3,
+        "paragraph text"
+      ],
+      [
+        3,
+        "other details"
+      ]
+    ],
+    "column_names_original": [
+      [
+        -1,
+        "*"
+      ],
+      [
+        0,
+        "Template_Type_Code"
+      ],
+      [
+        0,
+        "Template_Type_Description"
+      ],
+      [
+        1,
+        "Template_ID"
+      ],
+      [
+        1,
+        "Version_Number"
+      ],
+      [
+        1,
+        "Template_Type_Code"
+      ],
+      [
+        1,
+        "Date_Effective_From"
+      ],
+      [
+        1,
+        "Date_Effective_To"
+      ],
+      [
+        1,
+        "Template_Details"
+      ],
+      [
+        2,
+        "Document_ID"
+      ],
+      [
+        2,
+        "Template_ID"
+      ],
+      [
+        2,
+        "Document_Name"
+      ],
+      [
+        2,
+        "Document_Description"
+      ],
+      [
+        2,
+        "Other_Details"
+      ],
+      [
+        3,
+        "Paragraph_ID"
+      ],
+      [
+        3,
+        "Document_ID"
+      ],
+      [
+        3,
+        "Paragraph_Text"
+      ],
+      [
+        3,
+        "Other_Details"
+      ]
+    ],
+    "column_types": [
+      "text",
+      "text",
+      "text",
+      "number",
+      "number",
+      "text",
+      "time",
+      "time",
+      "text",
+      "number",
+      "number",
+      "text",
+      "text",
+      "text",
+      "number",
+      "number",
+      "text",
+      "text"
+    ],
+    "db_id": "cre_Doc_Template_Mgt",
+    "foreign_keys": [
+      [
+        5,
+        1
+      ],
+      [
+        10,
+        3
+      ],
+      [
+        15,
+        9
+      ]
+    ],
+    "primary_keys": [
+      1,
+      3,
+      9,
+      14
+    ],
+    "table_names": [
+      "reference template types",
+      "templates",
+      "documents",
+      "paragraphs"
+    ],
+    "table_names_original": [
+      "Ref_Template_Types",
+      "Templates",
+      "Documents",
+      "Paragraphs"
+    ]
+  }
+]

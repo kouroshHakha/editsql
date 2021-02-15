@@ -3,3 +3,6 @@ model/*
 data/*
 logs_spider_editsql/*
 processed_data_spider_removefrom/*
+glove
+.DS_Store
+.idea

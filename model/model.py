@@ -292,7 +292,7 @@ class ATISModel(torch.nn.Module):
         return snippets
 
     def _initialize_discourse_states(self):
-        discourse_state = self.initial_discourse_state
+        discourse_state = self.initial_discourse_state.data
 
         discourse_lstm_states = []
         for lstm in self.discourse_lstms:

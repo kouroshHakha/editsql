@@ -2,7 +2,7 @@
 
 # 1. preprocess dataset by the following. It will produce data/sparc_data_removefrom/
 
-python3 preprocess.py --dataset=sparc --remove_from
+# python3 preprocess.py --dataset=sparc --remove_from
 
 # 2. train and evaluate.
 #    the result (models, logs, prediction outputs) are saved in $LOGDIR

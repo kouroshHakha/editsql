@@ -527,6 +527,7 @@ class SchemaInteractionATISModel(ATISModel):
             else:
                 final_utterance_state, utterance_states, schema_states = self.get_bert_encoding(input_sequence, input_schema, discourse_state, dropout=False)
 
+            breakpoint()
             input_hidden_states.extend(utterance_states)
             input_sequences.append(input_sequence)
 
